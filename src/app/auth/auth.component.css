@@ -1,0 +1,12 @@
+/* Add mobile styles for the component here.  */
+text-field {
+  width: 80%;
+}
+flexbox-layout {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+stack-layout {
+  margin-bottom: 150;
+}

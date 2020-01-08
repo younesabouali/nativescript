@@ -1,0 +1,18 @@
+<ns-action-bar
+  title="login"
+  [hasMenu]="false"
+  [showBackButton]="false"
+></ns-action-bar>
+
+<flexbox-layout>
+  <stack-layout>
+    <text-field class="form-control"></text-field>
+    <text-field class="form-control"></text-field>
+    <Button
+      text="Login!"
+      class="btn btn-primary"
+      nsRouterLink="/challenges"
+      [clearHistory]="true"
+    ></Button>
+  </stack-layout>
+</flexbox-layout>

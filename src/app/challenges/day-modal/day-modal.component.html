@@ -1,0 +1,5 @@
+<flexbox-layout>
+  <label [text]="loadedDate | date"></label>
+  <button text="Completed" (tap)="handleTap('Completed')" class="btn"></button>
+  <button text="Failed" class="btn" (tap)="handleTap('failed')"></button>
+</flexbox-layout>

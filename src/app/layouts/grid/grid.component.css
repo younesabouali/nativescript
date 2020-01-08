@@ -1,0 +1,19 @@
+/* Add mobile styles for the component here.  */
+/* Add mobile styles for the component here.  */
+/* GridLayout {
+  grid-template-columns: 4;
+} */
+label {
+  width: 50;
+  height: 50;
+}
+
+#i1 {
+  background: rgba(56, 9, 9, 0.801);
+}
+#i2 {
+  background: blue;
+}
+#i3 {
+  background-color: orange;
+}

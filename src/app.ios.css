@@ -1,0 +1,12 @@
+@import "./app.common.css";
+
+.btn {
+  background: #ffffff;
+  border-width: 1;
+  border-color: #7c015d;
+  color: #7c015d;
+  width: 250;
+  padding: 5 10;
+  border-radius: 30%;
+  margin: 5 0;
+}

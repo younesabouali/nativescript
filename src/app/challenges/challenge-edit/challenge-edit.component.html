@@ -1,0 +1,24 @@
+<ns-action-bar
+  [title]="isCreating ? 'Replace Challenge' : 'Edit Challenge'"
+  [hasMenu]="false"
+  [showBackButton]="false"
+>
+  <!-- <action-item
+    android.systemIcon="ic_menu_back"
+    *ngIf="canGoBack"
+    nsRouterLink="/challenges"
+  >
+  </action-item>
+  <action-item
+    *ngIf="android && hasMenu"
+    icon="res://menu_black"
+    nsRouterLink="/challenges"
+    skipLocationChange="true"
+  ></action-item
+> -->
+</ns-action-bar>
+
+<FlexboxLayout justifyContent="space-between">
+  <label text="The Edit  Page"></label>
+  <Button text="Cancel" (tap)="goBack()"></Button>
+</FlexboxLayout>

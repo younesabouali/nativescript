@@ -1,0 +1,21 @@
+FlexboxLayout {
+  border-color: coral;
+  border-width: 3;
+  height: 200;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+label {
+  width: 50;
+  height: 50;
+}
+#id1 {
+  background-color: blue;
+}
+#id2 {
+  background-color: purple;
+}
+#id3 {
+  background-color: brown;
+}

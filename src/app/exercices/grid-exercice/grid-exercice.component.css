@@ -1,0 +1,23 @@
+/* Add mobile styles for the component here.  */
+GridLayout {
+  width: 500;
+  height: 500;
+  border-width: 10;
+  padding: 0;
+}
+
+#id1 {
+  background-color: coral;
+}
+#id2 {
+  background-color: cornflowerblue;
+}
+#id3 {
+  background-color: crimson;
+}
+#id4 {
+  background-color: cyan;
+}
+#id5 {
+  background-color: darkgoldenrod;
+}

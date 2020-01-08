@@ -1,0 +1,7 @@
+@import "~@nativescript/theme/css/core.css";
+.drawer-container {
+  background: linear-gradient(140deg, #2e0524, #7c015d);
+  flex-direction: column;
+  justify-content: center;
+  padding: 20;
+}

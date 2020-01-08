@@ -1,0 +1,27 @@
+/* Add mobile styles for the component here.  */
+AbsoluteLayout {
+  border-color: darkgreen;
+  border-width: 10;
+  height: 100%;
+}
+label {
+  height: 50;
+  width: 50;
+}
+#id1 {
+  background-color: coral;
+}
+#id2 {
+  background-color: cornflowerblue;
+  height: 130;
+  width: 90;
+}
+#id3 {
+  background-color: crimson;
+}
+#id4 {
+  background-color: cyan;
+}
+#id5 {
+  background-color: darkgoldenrod;
+}

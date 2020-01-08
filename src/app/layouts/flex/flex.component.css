@@ -1,0 +1,21 @@
+/* Add mobile styles for the component here.  */
+FlexboxLayout {
+  flex-direction: column;
+  align-items: center;
+  height: 300;
+  justify-content: space-around;
+}
+label {
+  width: 50;
+  height: 50;
+}
+
+#i1 {
+  background: red;
+}
+#i2 {
+  background: blue;
+}
+#i3 {
+  background-color: orange;
+}

@@ -1,0 +1,25 @@
+<ns-action-bar title="Current Challenge ">
+  <action-item
+    ios.position="right"
+    android.position="ActionBar"
+    nsRouterLink="/challenges/replace"
+    [clearHistory]="true"
+    pageTransition="slideLeft"
+  >
+    <Label text="Replace"></Label
+  ></action-item>
+  <action-item
+    ios.position="right"
+    android.position="ActionBar"
+    nsRouterLink="/challenges/edit"
+    [clearHistory]="true"
+    pageTransition="slideLeft"
+  >
+    <label text="Edit"> </label
+  ></action-item>
+</ns-action-bar>
+<StackLayout>
+  <Label class="h1 title" text="The Current Challenge"></Label>
+  <Label class="title" [text]="status ? status : 'pending'"></Label>
+  <Button text="Change Status" class="btn" (tap)="onChangeStatus()"></Button>
+</StackLayout>
